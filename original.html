@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+   <!--META TAGS-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="harry potter dueling game" content="Harry Potter Deuling Game"/>
+
+    <title>Harry Potter Deuling Game</title>
+    <!--How to add an icon to the title?-->
+    <link rel="HP icon" href="/public/images/hpglasses.png">
+
+    <!-- Bootstrap, Fonts, CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../New HP Dueling/css/style.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700" rel="stylesheet">
+
+    </head>
+    <body>
+    <div class="container-fluid outline">
+      <section class="headingIntro">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <br>
+            <p class="hpTitle">Harry Potter Dueling Game</p>
+            <p>Test</p>
+            <img class="img-fluid glasses" src="./images/hpglasses.png" alt="Harry's Glasses">
+            <p class="hpSubTitle">Are you Ready to Play?</p>
+          </div>
+        </div>
+        <div class="row inputs">
+          <div class="col-md-12 text-center">
+            <label>Player Name:</label>
+            <br>
+            <input class="getName" type="text" name="playername" value="">
+            <br>
+            <button type="button" class="btn btn-dark btn-lg go">GO!</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="DisplayRounds">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <br>
+            <p class="hpTitle">Harry Potter Dueling Game</p>
+            <img class="img-fluid glasses" src="./images/hpglasses.png" alt="Harry's Glasses">
+            <p class="directionsRoundOne">Hello, Name. We start with four duels that will be randomly populated into a bracket style game.<br> Click on the witch or wizard you want to win each duel to move onto the next & final round.</p><br>
+          </div>
+        </div>
+        <div class="row round1">
+          <!--First Set of Four - Round 1-->
+          <div class="col-md-3 set1">
+            <div class="row">
+              <div class="col-md-6 text-center">
+                  <p class="characterName">Name of Character</p>
+                  <img class="characterImages" src="images/fbhermoine.jpg" alt="Name of Character">
+              </div>
+              <div class="col-md-6 text-center">
+                  <p class="characterName">Name of Character</p>
+                  <img class="characterImages" src="images/fblupin.jpg" alt="Name of Character">
+                  <br>
+              </div>
+            </div>            
+          </div>
+          <!--Second Set of Four - Round 1-->
+          <div class="col-md-3 set2">
+              <div class="row">
+                <div class="col-md-6 text-center">
+                    <p class="characterName">Name of Character</p>
+                    <img class="characterImages" src="images/fbsnape.jpg" alt="Name of Character">
+                </div>
+                <div class="col-md-6 text-center">
+                    <p class="characterName">Name of Character</p>
+                    <img class="characterImages" src="images/fbravenclaw.jpg" alt="Name of Character">
+                    <br>
+                </div>
+              </div>            
+            </div>
+          <!--Third Set of Four - Round 1-->
+          <div class="col-md-3 set3">
+              <div class="row">
+                <div class="col-md-6 text-center">
+                    <p class="characterName">Name of Character</p>
+                    <img class="characterImages" src="images/fblucius.jpg" alt="Name of Character">
+                </div>
+                <div class="col-md-6 text-center">
+                    <p class="characterName">Name of Character</p>
+                    <img class="characterImages" src="images/fbgryffindor.jpg" alt="Name of Character">
+                    <br>
+                </div>
+              </div>            
+            </div>
+            <!--Fourth Set of Four - Round 1-->
+            <div class="col-md-3 set4">
+                <div class="row">
+                  <div class="col-md-6 text-center">
+                      <p class="characterName">Name of Character</p>
+                      <img class="characterImages" src="images/fbbellatrix.jpg" alt="Name of Character">
+                  </div>
+                  <div class="col-md-6 text-center">
+                      <p class="characterName">Name of Character</p>
+                      <img class="characterImages" src="images/fbhufflepuff1.jpg" alt="Name of Character">
+                      <br>
+                  </div>
+                </div>            
+              </div>
+        </div>
+        <!--Winners of Round 1 and New Round-->
+        <div class="row winnersRound1">
+            <div class="col-md-3 text-center r1winner1">
+              <br>
+              <p class="winnerRound1Name">Winner: Character Name</p>
+              <img class="round1WinnerImages" src="images/fbhermoine.jpg" alt="Name of Character">
+            </div>
+            <div class="col-md-3 text-center r1winner2">
+              <br>
+              <p class="winnerRound1Name">Winner: Character Name</p>
+              <img class="round1WinnerImages" src="images/fbsnape.jpg" alt="Name of Character">
+            </div>
+            <div class="col-md-3 text-center r1winner3">
+              <br>
+              <p class="winnerRound1Name">Winner: Character Name</p>
+              <img class="round1WinnerImages" src="images/fbgryffindor.jpg" alt="Name of Character">
+            </div>
+            <div class="col-md-3 text-center r1winner4">
+              <br>
+              <p class="winnerRound1Name">Winner: Character Name</p>
+              <img class="round1WinnerImages" src="images/fbhufflepuff1.jpg" alt="Name of Character">
+           </div>
+          </div>
+          <!--Winners of Round 2 & New Round-->
+          <div class="row">
+            <div class="col-md-6 text-right r2winner1">
+                <br>
+                <p class="winnerRound2Name">Winner: Character Name</p>
+                <img class="round2WinnerImages" src="images/fbsnape.jpg" alt="Name of Character">
+            </div>
+            <div class="col-md-6 text-left r2winner1">
+                <br>
+                <p class="winnerRound2Name">Winner: Character Name</p>
+                <img class="round2WinnerImages" src="images/fbgryffindor.jpg" alt="Name of Character">
+            </div>
+          </div>
+          <!--FINAL WINNER-->
+          <div class="row">
+            <div class="col-md-12 text-center">
+                <br>
+                <p class="finalWinner">Winner: Character Name</p>
+                <img class="finalWinnerImage" src="images/fbsnape.jpg" alt="Name of Character">
+            </div>
+          </div>
+      </section>
+
+      <!--BUTTON for Data-->
+      <section class="dataButton">
+        <div class="row">
+          <div class="col-md-12 text-center">
+              <button type="button" class="btn btn-dark btn-lg dataButton">Dueling Data</button>
+          </div>
+        </div>
+      </section>
+
+      <!--TABLE FOR DATA-->
+      <section class="dataTable">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                <br>
+                <p class="hpTitle">Harry Potter Dueling Game</p>
+                <img class="img-fluid glasses" src="./images/hpglasses.png" alt="Harry's Glasses">
+                <p class="hpSubTitle">The Official Dueling Data</p>
+              </div>
+            </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+              <table class="table table-striped">
+                <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">Player Name</th>
+                      <th scope="col">Final Duel</th>
+                      <th scope="col">Winner</th>
+                      <th scope="col"># of Wins</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                        <td>Player Name</td>
+                        <td>Chacter vs. Character</td>
+                        <td>Winner</td>
+                        <td># of time that character won</td>
+                      </tr>
+                  </tbody>
+              </table>
+              <button type="button" class="btn btn-dark btn-lg tryAgain">Try Again</button>
+          </div>
+        </div>
+          
+      </section>
+
+      <section class="footer">
+          <br>
+          <p class="copyright text-center"><strong>Made with <span class="white"> a wand</span> by Faith H. Wallace, Ph.D., &copy;  2018 • Follow Me </strong><a class="twitter-link" href="https://twitter.com/fwallacephd" data-show-count="false">@fwallacephd</a></p>
+      </section>
+    </div>
+   
+
+    <script src="jquery.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+</html>
